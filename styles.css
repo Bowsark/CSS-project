@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 60px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.home {
+    background: url('home-background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.about, .portfolio, .contact {
+    color: #271688;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.portfolio .project {
+    margin-bottom: 20px;
+}
